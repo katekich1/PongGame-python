@@ -16,7 +16,7 @@ paddle_a = turtle.Turtle()
 paddle_a.speed(0)
 paddle_a.shape("square")
 paddle_a.color("white")
-paddle_a.shapesize(stretch_wid=5, stretch_len=1)
+paddle_a.shapesize(stretch_wid=20, stretch_len=1)
 paddle_a.penup()
 paddle_a.goto(-350, 0)
 
@@ -39,39 +39,39 @@ ball1.goto(0, 0)
 ball1.dx = 0.10
 ball1.dy = -0.10
 
-# # Ball
-# ball2 = turtle.Turtle()
-# ball2.speed(0)
-# ball2.shape("square")
-# ball2.color("blue")
-# ball2.penup()
-# ball2.goto(0, 0)
-# ball2.dx = -0.10
-# ball2.dy = -0.10
+# Ball
+ball2 = turtle.Turtle()
+ball2.speed(0)
+ball2.shape("square")
+ball2.color("blue")
+ball2.penup()
+ball2.goto(0, 0)
+ball2.dx = -0.10
+ball2.dy = -0.10
 
 
-# # Ball
-# ball3 = turtle.Turtle()
-# ball3.speed(0)
-# ball3.shape("square")
-# ball3.color("yellow")
-# ball3.penup()
-# ball3.goto(0, 0)
-# ball3.dx = 0.10
-# ball3.dy = 0.10
+# Ball
+ball3 = turtle.Turtle()
+ball3.speed(0)
+ball3.shape("square")
+ball3.color("yellow")
+ball3.penup()
+ball3.goto(0, 0)
+ball3.dx = 0.10
+ball3.dy = 0.10
 
 
-# # Ball
-# ball4 = turtle.Turtle()
-# ball4.speed(0)
-# ball4.shape("square")
-# ball4.color("red")
-# ball4.penup()
-# ball4.goto(0, 0)
-# ball4.dx = -0.10
-# ball4.dy = 0.10
+# Ball
+ball4 = turtle.Turtle()
+ball4.speed(0)
+ball4.shape("square")
+ball4.color("red")
+ball4.penup()
+ball4.goto(0, 0)
+ball4.dx = -0.10
+ball4.dy = 0.10
 
-balls = [ball1]
+balls = [ball1, ball2, ball3, ball4]
 
 # Pen
 pen = turtle.Turtle()
